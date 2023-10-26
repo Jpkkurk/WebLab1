@@ -1,0 +1,42 @@
+body {
+    font-family: cursive, sans-serif;
+}
+
+.fancy-font {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.soft-color {
+    color: #666; 
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expandable-text-container {
+    background-color: #007BFF;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.expandable-text {
+    color: white;
+}
+
+.expandable-text-container:hover {
+    transform: scale(1.1);
+}
